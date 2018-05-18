@@ -28,8 +28,10 @@ function aclick(){
     e.preventDefault();
     var link = $(this).attr('href');
     $(link).fadeIn('3000').siblings().hide();
+    $(link).addClass('fadeIn-bottom');
     $('header').removeClass('animate-in').addClass('animate-out');
-    $('.close-btn').delay(3000).fadeIn();
+    $('.close-btn').delay(2000).fadeIn();
+    $('nav').show();
   });
   $(".nav-menu").click(function(e){
     $('header').removeClass('animate-out').addClass('animate-in');
