@@ -303,7 +303,7 @@ section{
 }
 #about p, #portfolio p, #contact p{
   margin-top: 30px;
-  font-size: 24px;
+  font-size: 22px;
   color:rgba(255,255,255,0.6);
 }
 #about .about-content, #portfolio .about-content, #contact .about-content{
