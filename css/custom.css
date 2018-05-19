@@ -210,24 +210,24 @@ section{
   max-width: 1000px;
 }
 .animate-out{
-  animation: out ease-out 1.5s;
-  -moz-animation: out ease-out 1.5s;
-  -webkit-animation: out ease-out 1.5s;
+  animation: out ease-out 1.3s;
+  -moz-animation: out ease-out 1.3s;
+  -webkit-animation: out ease-out 1.3s;
   animation-fill-mode:forwards;
   -moz-animation-fill-mode:forwards;
   -webkit-animation-fill-mode:forwards;
 }
 @keyframes out {
   from{top:0}
-  to{top:-1000px}
+  to{top:-1400px}
 }
 @-moz-keyframes out{
   from{top:0}
-  to{top:-1000px}
+  to{top:-1400px}
 }
 @-webkit-keyframes out{
   from{top:0}
-  to{top:-1000px}
+  to{top:-1400px}
 }
 .glow{
   animation: glow 3s infinite;
@@ -264,15 +264,15 @@ section{
   -webkit-animation-fill-mode:forwards;
 }
 @keyframes in{
-  from{top:-1000px}
+  from{top:-1400px}
   to{top:0}
 }
 @-moz-keyframes in{
-  from{top:-1000px}
+  from{top:-1400px}
   to{top:0}
 }
 @-webkit-keyframes in{
-  from{top:-1000px}
+  from{top:-1400px}
   to{top:0}
 }
 @media screen and (max-width:768px){
@@ -338,10 +338,10 @@ section{
 
 .fadeIn{
   opacity: 0;
-  animation: fadein ease-in .5s;
-  -webkit-animation: fadein ease-in .5s;
-  -moz-animation: fadein ease-in .5s;
-  -ms-animation: fadein ease-in .5s;
+  animation: fadein ease-in 1s;
+  -webkit-animation: fadein ease-in 1s;
+  -moz-animation: fadein ease-in 1s;
+  -ms-animation: fadein ease-in 1s;
   animation-fill-mode:forwards;
   -webkit-animation-fill-mode:forwards;
   -moz-animation-fill-mode:forwards;
@@ -402,19 +402,19 @@ section{
     margin-top:  50px;
   }
   20%{
-    opacity:.2;
+    opacity:.1;
     margin-top: 40px;
   }
   40%{
-    opacity:.4;
+    opacity:.1;
     margin-top: 30px;
   }
   60%{
-    opacity:.6;
+    opacity:.2;
     margin-top: 20px;
   }
   80%{
-    opacity:.8;
+    opacity:.2;
     margin-top: 10px;
   }
   100%{
@@ -430,19 +430,19 @@ section{
     margin-top:  50px;
   }
   20%{
-    opacity:.2;
+    opacity:.1;
     margin-top: 40px;
   }
   40%{
-    opacity:.4;
+    opacity:.1;
     margin-top: 30px;
   }
   60%{
-    opacity:.6;
+    opacity:.2;
     margin-top: 20px;
   }
   80%{
-    opacity:.8;
+    opacity:.2;
     margin-top: 10px;
   }
   100%{
@@ -458,19 +458,19 @@ section{
     margin-top:  50px;
   }
   20%{
-    opacity:.2;
+    opacity:.1;
     margin-top: 40px;
   }
   40%{
-    opacity:.4;
+    opacity:.1;
     margin-top: 30px;
   }
   60%{
-    opacity:.6;
+    opacity:.2;
     margin-top: 20px;
   }
   80%{
-    opacity:.8;
+    opacity:.3;
     margin-top: 10px;
   }
   100%{
