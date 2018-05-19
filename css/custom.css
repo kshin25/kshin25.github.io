@@ -306,18 +306,11 @@ section{
   font-size: 24px;
   color:rgba(255,255,255,0.6);
 }
-#about .about-content{
-    padding:120px 20px 0;
+#about .about-content, #portfolio .about-content, #contact .about-content{
+    padding:120px 20px 60px;
     text-align: center;
 }
-#portfolio .about-content{
-    padding:120px 20px 0;
-    text-align: center;
-}
-#contact .about-content{
-    padding:120px 20px 0;
-    text-align: center;
-}
+
 .social{
   display: block;
   width: 80px;
@@ -513,4 +506,16 @@ section{
     margin-top: 0;
   }
 
+}
+.link{
+  margin-top: 5px;
+  display: inline-block;
+  padding: 5px 20px;
+  border-radius: 20px;
+  color: #fff;
+  border: solid 1px #fff;
+}
+.link:hover{
+  background: #fff;
+  color:#000;
 }
