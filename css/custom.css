@@ -524,6 +524,7 @@ section{
 }
 #portfolio .portfolio-list{
   margin: 0 20px;
+
 }
 #portfolio .portfolio-list .list-holder{
   list-style: none;
@@ -538,7 +539,6 @@ section{
 }
 
 #portfolio .portfolio-list .list-holder li{
-  display: table-cell;
   width: 32%;
   height: 200px;
   background: #999999;
@@ -556,6 +556,9 @@ section{
   margin-right: 0;
 }
 @media screen and (max-width:768px){
+  #portfolio{
+    margin-bottom: 60px;
+  }
   #portfolio .portfolio-list .list-holder li{
     width: 49%;
   }
