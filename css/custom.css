@@ -73,7 +73,7 @@ nav{
   position: fixed;
   top:0;
   height: 50px;
-  background: rgba(0,0,0,.5);
+  background: #131313;
   text-align: center;
   display: none;
 }
@@ -518,4 +518,62 @@ section{
 .link:hover{
   background: #fff;
   color:#000;
+}
+#portfolio .about-content{
+  padding-bottom: 0;
+}
+#portfolio .portfolio-list{
+  margin: 0 20px;
+}
+#portfolio .portfolio-list .list-holder{
+  list-style: none;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: -moz-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+}
+
+#portfolio .portfolio-list .list-holder li{
+  display: table-cell;
+  width: 32%;
+  height: 200px;
+  background: #999999;
+  color:#999999;
+  margin: 2% 2% 0 0;
+  position: relative;
+  line-height: 200px;
+  text-align: center;
+}
+#portfolio .portfolio-list .list-holder li:hover{
+  background: rgba(0,0,0,.9);
+}
+
+#portfolio .portfolio-list .list-holder li:nth-child(3n+3){
+  margin-right: 0;
+}
+@media screen and (max-width:768px){
+  #portfolio .portfolio-list .list-holder li{
+    width: 49%;
+  }
+  #portfolio .portfolio-list .list-holder li:nth-child(3n+3){
+    margin-right: 2%;
+  }
+  #portfolio .portfolio-list .list-holder li:nth-child(2n+2){
+    margin-right: 0;
+  }
+}
+@media screen and (max-width:600px){
+  #portfolio .portfolio-list .list-holder li{
+    width: 100%;
+    margin-right: 0;
+    margin-top:4%;
+  }
+  #portfolio .portfolio-list .list-holder li:nth-child(3n+3){
+    margin-right: 0;
+  }
+
 }
