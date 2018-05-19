@@ -83,7 +83,7 @@ nav .nav{
 nav .nav span{
   display: block;
   border-top:solid 5px #fff;
-  width:45px;
+  width:35px;
   margin: 0 auto;
   padding-top: 5px;
 }
@@ -293,7 +293,6 @@ section{
   }
   nav .nav span{
     margin: 0 12px 0 auto;
-    width: 40px;
   }
   nav .nav-menu span{
     margin: 0 12px 0 auto;
@@ -349,7 +348,7 @@ section{
 
 }
 @keyframes fadein {
-  0%{opacity:0;
+  0%{opacity:0.1;
     right: -160px;
   }
   100%{opacity:1;
@@ -358,8 +357,11 @@ section{
 
 }
 @-webkit-keyframes fadein {
-  0%{opacity:0;
+  0%{opacity:0.1;
     right: -160px;
+  }
+  50%{opacity:0.1;
+    right: -125px;
   }
   100%{opacity:1;
     right:-90px;
@@ -367,8 +369,11 @@ section{
 
 }
 @-moz-keyframes fadein {
-  0%{opacity:0;
+  0%{opacity:0.1;
     right: -160px;
+  }
+  50%{opacity:0.1;
+    right: -125px;
   }
   100%{opacity:1;
     right:-90px;
@@ -379,6 +384,9 @@ section{
   0%{opacity:0;
     right: -160px;
   }
+  50%{opacity:0.1;
+    right: -125px;
+  }
   100%{opacity:1;
     right:-90px;
   }
@@ -386,10 +394,10 @@ section{
 }
 .fadeIn-bottom{
   opacity: 0;
-  animation: fbottom ease-in 1s;
-  -moz-animation: fbottom ease-in 1s;
-  -webkit-animation: fbottom ease-in 1s;
-  -ms-animation: fbottom ease-in 1s;
+  animation: fbottom ease-in-out 1s;
+  -moz-animation: fbottom ease-in-out 1s;
+  -webkit-animation: fbottom ease-in-out 1s;
+  -ms-animation: fbottom ease-in-out 1s;
   animation-fill-mode:forwards;
   -webkit-animation-fill-mode:forwards;
   -moz-animation-fill-mode:forwards;
@@ -541,7 +549,7 @@ section{
 #portfolio .portfolio-list .list-holder li{
   width: 32%;
   height: 200px;
-  background: #999999;
+  background: rgba(0,0,0,0.2);
   color:#999999;
   margin: 2% 2% 0 0;
   position: relative;
