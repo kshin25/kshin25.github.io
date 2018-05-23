@@ -4,6 +4,7 @@
   5/17/2018
 */
 $(function(){
+  modal();
   ahover();
   aclick();
 });
@@ -38,5 +39,17 @@ function aclick(){
   });
   $(".close-btn").click(function(){
     $('header').removeClass('animate-in').addClass('animate-out');
+  });
+}
+function modal(){
+  $(".crud").click(function(e){
+    e.preventDefault();
+    $("#modal").fadeIn('3000');
+
+  });
+  $(".xbutton").click(function(e){
+    e.preventDefault();
+    $("#modal").fadeOut('3000');
+
   });
 }

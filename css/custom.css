@@ -18,6 +18,9 @@ h2{
   font-size: 60px;
   font-weight: normal;
 }
+img{
+  width: 100%;
+}
 body{
   font-family: "Calibri";
   font-size: 20px;
@@ -595,4 +598,46 @@ section{
     margin-right: 0;
   }
 
+}
+#modal{
+  display: none;
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+
+}
+#modal .modal-content{
+  max-width: 600px;
+  margin:100px auto 0;
+  background: #131313;
+  position: relative;
+}
+#modal .modal-content .xbutton{
+  display: none;
+}
+#modal .modal-content:hover .xbutton{
+  display: block;
+  width: 30px;
+  height:30px;
+  position: absolute;
+  right: 10px;
+  top:10px;
+  background: #000;
+  color:#fff;
+  text-align: center;
+
+}
+#modal .modal-content .btn-download{
+  text-align: center;
+  padding:20px 0;
+
+}
+@media screen and (max-width:600px){
+  #modal .modal-content:hover .xbutton{
+    left: 10px;
+    right: auto;
+  }
 }
