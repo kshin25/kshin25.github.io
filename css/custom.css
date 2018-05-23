@@ -559,7 +559,15 @@ section{
 #portfolio .portfolio-list .list-holder li:hover{
   background: rgba(0,0,0,.9);
 }
+#portfolio .portfolio-list .list-holder li a{
+  display: block;
+  color:#999999;
 
+}
+#portfolio .portfolio-list .list-holder li a:hover{
+  display: block;
+
+}
 #portfolio .portfolio-list .list-holder li:nth-child(3n+3){
   margin-right: 0;
 }
